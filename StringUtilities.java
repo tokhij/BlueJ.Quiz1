@@ -5,7 +5,7 @@ public class StringUtilities {
      * @return `input`
      */
     public String returnInput(String input) {
-        return null;
+        return input;
     }
 
     /**
@@ -15,7 +15,7 @@ public class StringUtilities {
      */
     public String concatenate(String baseValue, String valueToBeAdded) {
         
-        return null;
+        return baseValue + valueToBeAdded;
     }
 
     /**
