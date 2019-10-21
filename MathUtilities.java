@@ -58,8 +58,6 @@ public class MathUtilities{
      * @return the result of the number multiply by itself
      */
     public Integer square(Integer number) {
-        Integer i = 6;
-        Integer square = i * i;
-                return (number);
+                return (number * number);
     }
 }
