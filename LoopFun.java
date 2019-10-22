@@ -10,7 +10,10 @@ public class LoopFun
        * @return the factorial of the number
        */
       public Integer factorial(Integer number){
-          return null;
+          int startFact = 1;
+          for (int i = 2; i <= number; i++){
+              startFact = startFact * (i);}
+              return startFact;
       }
 
       /**
@@ -43,6 +46,25 @@ public class LoopFun
        * @return the encrypted string by shifting each character by three character
        */
       public String encrypt(String word) {
-          return null;
-      }
+          char[] randomChar = word.toCharArray();
+          for (int i = 0; i < randomChar.length; i++){
+         
+            if (randomChar[i] == 'x'){
+                randomChar[i] = 'a';
+            }
+            else if (randomChar[i] == 'y'){
+                randomChar[i] = 'b';
+            }
+            else if (randomChar[i] == 'z'){
+                randomChar[i] = 'c';
+            }
+            else {
+            randomChar[i] += 3;
+        }
+        }
+          String randomString = new String(randomChar);
+          
+          return randomString;
+        }
+      
 }

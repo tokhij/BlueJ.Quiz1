@@ -36,14 +36,11 @@ public class MathUtilities{
      * @return true if the number is odd, false if it is even
      */
     public Boolean isOdd(Integer number){
-        boolean isEven = true; 
-
-        for (int i = 0; i <= number; i++)  
-            isEven = !isEven; 
-
-        return isEven;
+        if(number%2 == 0){
+        return false;
     }
-
+    return true;
+}
     /**
      * Multiply the number by itself
      * @param number the number given
