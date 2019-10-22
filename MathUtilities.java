@@ -7,9 +7,6 @@ public class MathUtilities{
      * @return the sum of the two numbers
      */
     public Integer add(Integer baseValue, Integer valueToAdd){
-        Integer x;
-        Integer y;
-
         return baseValue + valueToAdd;
     }
 
@@ -20,9 +17,6 @@ public class MathUtilities{
      * @return the sum of the two numbers
      */
     public Double add(Double baseValue, Double valueToAdd){
-        Double x;
-        Double y;
-
         return baseValue + valueToAdd;
     }
 
@@ -32,10 +26,8 @@ public class MathUtilities{
      * @return the half of the number in double
      */
     public Double half(Integer number) {
-        Double x;
-        Double y;
-
-        return 8.0;
+        double result = number /2;
+        return result;
     }
 
     /**
