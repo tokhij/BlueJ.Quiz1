@@ -47,7 +47,9 @@ public class StringUtilities {
      * @return `value` with char of value `charToRemove` removed
      */
     public String removeCharacter(String value, Character charToRemove) {
-                return value.replace(charToRemove.toString(),"");
+        //given charToRemove 
+        //remove char from value 
+        return value.replace(charToRemove.toString(),"");
     }
 
     /**
@@ -56,6 +58,8 @@ public class StringUtilities {
      */
     public String getLastWord(String sentence) {
         String[] words = sentence.split(" ");
+//        "hello my name is john"
+//        ["hello","my","name","is","john"]
         return words[words.length-1];
     }
 }

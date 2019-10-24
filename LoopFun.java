@@ -62,7 +62,7 @@ public class LoopFun
             randomChar[i] += 3;
         }
         }
-          String randomString = new String(randomChar);
+          String randomString = String.valueOf(randomChar);
           
           return randomString;
         }
